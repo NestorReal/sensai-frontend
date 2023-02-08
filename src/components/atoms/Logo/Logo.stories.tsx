@@ -3,7 +3,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
 import Logo from './Logo';
-import LyticaLogo from '../../../static/images/logo.png';
+import SensaiLogo from '../../../static/images/logo.png';
 
 export default {
   title: 'Atoms/Logo',
@@ -16,5 +16,5 @@ const Template: ComponentStory<typeof Logo> = (args) => <Logo {...args} />;
 export const Primary = Template.bind({});
 
 Primary.args = {
-  url: LyticaLogo,
+  url: SensaiLogo,
 };

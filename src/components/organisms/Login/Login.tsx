@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import FormButton from '../../atoms/FormButton';
 import CustomLink from '../../atoms/CustomLink';
 import Logo from '../../atoms/Logo';
-import LyticaLogo from '../../../static/images/logo.png';
+import SensaiLogo from '../../../static/images/logo.png';
 import { StyleForm, FormButtonContainer, ErrorMessageContainer } from './style';
 import Container from '../../reusableStyledComponents/Container';
 import CustomField from '../../atoms/CustomField';
@@ -62,7 +62,7 @@ const Login = ({ onSubmit, link, redirectAfterLoginTo }: ILogin) => {
       {({ handleSubmit, isSubmitting }) => (
         <StyleForm>
           <Container display="flex" alignItems="center" justifyContent="center" marginBottom={8}>
-            <Logo url={LyticaLogo} />
+            <Logo url={SensaiLogo} />
           </Container>
 
           <Form>
